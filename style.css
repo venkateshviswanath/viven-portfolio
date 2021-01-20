@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: signika;
+}
+header{
+    background-color: #3b5998;
+    height:80px;
+    width:100%;
+    border-radius:6px;
+}
+#brand a{
+    color:white;
+    font-size: 30px;
+    padding-left:3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav .nav-pills{
+    text-align: right;
+}
+#nav .item{
+    list-style: none;
+    display: inline;
+    padding:8px 25px;
+    font-size: 20px;
+}
+#nav .link{
+    text-decoration: none;
+    color:white;
+}
+#nav .active{
+    font-weight: bold;
+}
+#nav .link:hover{
+    transition:.3s;
+    color:black;
+}
+.box{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+.box img{
+    width:400px;
+    margin-right:100px;
+    clip-path: circle();
+}
+.box .name{
+    font-size:35px;
+}
+.section{
+    margin:auto;
+    height:150px;
+    width:100%
+}
+.container{
+    text-align:center;
+    padding:20px;
+    border-radius: 5px;
+}
+.container .heading{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.offwhite{
+    background-color:rgb(238, 235, 235);
+}
+.container .matter{
+    font-size:25px;
+    margin-bottom:10px;
+}
+.container a{
+    text-decoration: none;
+    padding:5px 12px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color:white;
+    font-size:20px;
+
+}
+.container a:hover{
+    transition:.2s ease-in;
+    background-color: #3b5998;
+}
+.footer{
+    background-color: #3b5998;
+    height:120px;
+    width:100%;
+    border-radius:5px;
+    margin-top: 10px;
+}
+.footer p{
+    padding: 20px 0px;
+    font-size:25px;
+    text-align: center;
+    color: white;
+}
+.footer ul{
+    text-align: center;
+}
+.footer .item{
+    color:white;
+    font-size:25px;
+    display: inline;
+    padding: 5px 10px;
+}
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+.footer .fa{
+    padding:3px 3px;
+    border-radius: 6px;
+}
+.footer .fa-facebook{
+    background-color: cornflowerblue;
+}
+.footer .fa-instagram{
+    background-image:linear-gradient(to top right,yellow,orange,red,blue);
+}
+.footer .fa-linkedin{
+    background-color: cornflowerblue;
+}
+.project-section{
+    display:inline;
+    margin: auto;
+}
+.projects{
+    margin: auto;
+    padding:20px 10px;
+    width: 60%;
+    height:180px;
+    font-size: 20px;
+    margin-top:30px;
+    border-radius: 6px;
+}
+.projects .source{
+    display: inline;
+    text-align: center;
+}
+.projects .source a{
+    text-decoration: none;
+    color:white;
+    padding:5px 12px;
+    border-radius: 5px;
+    background-color: cornflowerblue ;
+}
+header .back{
+    float:right;
+    margin:15px 10px;
+    padding:10px 25px;
+    background-color:grey;
+    border-radius:5px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.back:hover{
+    transition:.3s ease-in-out;
+    background-color: black;
+}
+.blogimg{
+    text-align: center;
+}
+.blogimg img{
+    height:50vh;
+    margin:10px 0px;
+}
+.content{
+    padding:10px 40px;
+    margin:5px 10px;
+}
+.content .blogtext{
+    margin:10px 5px;
+    border-radius:7px;
+    padding:5px 5px;
+}
+.content h2{
+    text-align: center;
+    padding:5px;
+    font-size: 30px;
+}
+.content h3{
+    padding-left:8px;
+    font-size:25px;
+}
+.content p{
+    padding:10px 20px;
+    font-size:20px;
+}
+.content ul{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:50px;
+    font-size:20px;
+}
+.content li{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.content .algo{
+    padding-left:50px;
+}
+.algo h4{font-size:22px;}
