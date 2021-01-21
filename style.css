@@ -214,3 +214,10 @@ header .back{
     padding-left:50px;
 }
 .algo h4{font-size:22px;}
+.blogtext a{
+    text-decoration: none;
+    display: block;
+    padding:10px 20px;
+    font-size:20px;
+
+}
