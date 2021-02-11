@@ -60,7 +60,7 @@ header{
 }
 @media (max-width:800px){
     .section{
-        height:280px;
+        height:300px;
         margin:8px 10px;
     }
     .box img{display:none;}
