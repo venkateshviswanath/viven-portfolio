@@ -217,6 +217,20 @@ header .back{
     border-radius:7px;
     padding:5px 5px;
 }
+@media (max-width:500px){
+    .blogtext .content{
+        height:250px;
+        width:90%;
+        margin-top:15px;
+    }
+}
+@media (max-width:400px){
+    .blogtext .content{
+        height:300px;
+        width:90%;
+        margin-top:15px;
+    }
+}
 .content h2{
     text-align: center;
     padding:5px;
@@ -249,5 +263,4 @@ header .back{
     display: block;
     padding:10px 25px;
     font-size:20px;
-
 }
