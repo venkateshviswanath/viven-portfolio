@@ -154,7 +154,7 @@ header{
     width: 60%;
     height:180px;
     font-size: 20px;
-    margin-top:30px;
+    margin-top:15px;
     border-radius: 6px;
 }
 .projects .source{
@@ -171,6 +171,13 @@ header{
 .source a:hover{
     transition:.2s ease-in;
     background-color: #3b5998;
+}
+@media (max-width:500px){
+    .projects{
+        height:250px;
+        width:80%;
+        margin-top:15px;
+    }
 }
 header .back{
     float:right;
