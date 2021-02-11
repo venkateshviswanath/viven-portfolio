@@ -174,7 +174,14 @@ header{
 }
 @media (max-width:500px){
     .projects{
-        height:280px;
+        height:250px;
+        width:90%;
+        margin-top:15px;
+    }
+}
+@media (max-width:400px){
+    .projects{
+        height:300px;
         width:90%;
         margin-top:15px;
     }
