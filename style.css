@@ -213,21 +213,21 @@ header .back{
     margin:5px 10px;
 }
 .content .blogtext{
-    margin:10px 5px;
+    margin:auto;
     border-radius:7px;
     padding:5px 5px;
 }
 @media (max-width:500px){
     .blogtext .content{
         height:250px;
-        width:90%;
+        width:100%;
         margin-top:15px;
     }
 }
 @media (max-width:400px){
     .blogtext .content{
         height:300px;
-        width:90%;
+        width:100%;
         margin-top:15px;
     }
 }
